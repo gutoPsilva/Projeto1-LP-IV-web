@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,7 +25,7 @@
         <h1 class="members">
             Gustavo Pereira da Silva
         </h1>
-        <div class="content-info">
+        <div class="member-container blur-dark-bg">
             <table class="member-info">
                 <tr>
                     <td>
@@ -40,52 +40,62 @@
             </table>
         </div>
         <div class="media">
-            <div class="media-content">
-                <div class="presentation-video">
-                    <h2>
-                        Apresentação
-                    </h2>
-                    <div class="video">
-                        <video controls>
-                            <source src="/static/Meet_ Grupo Olx __ Ponto House - Google Chrome 2023-10-09 17-07-38.mp4" type="video/mp4">
-                          Your browser does not support the video tag.
-                          </video>
-                    </div>
+            <div class="presentation-video blur-dark-bg">
+                <h2>
+                    Apresentação
+                </h2>
+                <div class="video">
+                    <video controls>
+                        <source src="/static/Meet_ Grupo Olx __ Ponto House - Google Chrome 2023-10-09 17-07-38.mp4" type="video/mp4">
+                      Your browser does not support the video tag.
+                      </video>
                 </div>
-                <div class="skills">
-                    <h2>Skills</h2>
-                    <div class="skills-list">
-                        <ul>
-                            <li>Habilidade 1</li>
-                            <li>Habilidade 1</li>
-                            <li>Habilidade 1</li>
-                            <li>Habilidade 1</li>
-                            <li>Habilidade 1</li>
-                        </ul>
-                    </div>
+            </div>
+            <div class="skills blur-dark-bg">
+                <h2>Skills</h2>
+                <div class="skills-list">
+                    <ul>
+                        <li>Habilidade 1</li>
+                        <li>Habilidade 1</li>
+                        <li>Habilidade 1</li>
+                        <li>Habilidade 1</li>
+                        <li>Habilidade 1</li>
+                    </ul>
                 </div>
             </div>
         </div>
-        <div class="contact-form">
-            <form action="">
-                <h2>Solicite seu serviço</h2>
-                <div class="form-group">
-                    <label for="name">Nome:</label>
-                    <input type="text" name="name" id="name">
+        <div class="contact-form-container">
+            <form class="contact-form">
+                <div class="form-header">
+                    <h2>Envie um email</h2>
                 </div>
-                <div class="form-group">
-                    <label for="email">E-mail:</label>
-                    <input type="email" name="email" id="email">
-                </div>
-                <div class="form-group">
-                    <label for="tel">Telefone:</label>
-                    <input type="tel" name="tel" id="tel">
-                </div>
-                <div class="form-group">
-                    <label for="service">Serviço:</label>
-                    <textarea name="service" id="service" cols="30" rows="5"></textarea>
-                </div>
-                <div class="form-submit">
+                <div class="form-body">
+                    <div class="form-group">
+                        <label for="name">Nome:</label>
+                        <input placeholder="Fulano de tal" type="text" name="name" id="name">
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="email">E-mail:</label>
+                        <input placeholder="fulanodetal@gmail.com" type="email" name="email" id="email">
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="tel">Telefone:</label>
+                        <input placeholder="11 99999-9999" type="tel" name="tel" id="tel">
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="conteudo">Conteúdo do email:</label>
+                        <textarea
+                            name="conteudo" 
+                            id="conteudo" 
+                            cols="30" 
+                            rows="5"
+                            placeholder="Ah não sei oq, não sei oq lá"
+                        ></textarea>
+                    </div>
+    
                     <input type="submit" value="Enviar">
                 </div>
             </form>
