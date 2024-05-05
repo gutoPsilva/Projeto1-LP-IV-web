@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/51a3fb8146.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Gustavo Pereira da Silva</title>
 </head>
 <body>
     <div class="header">
@@ -22,56 +22,37 @@
         </div>
     </div>
     <div class="content">
-        <h1 class="members">
-            Gustavo Pereira da Silva
-        </h1>
+        <div class="content-header">
+            <h1 class="members">Gustavo Pereira da Silva</h1>
+            <a class="voltar-btn" rel="prev" href="/index.html">Voltar</a>
+        </div>
         <div class="member-container blur-dark-bg">
             <table class="member-info">
                 <tr>
                     <td>
-                        <img style="border-radius: 50%;" class="member-img" src="/static/img/gustavo.jpg" alt="Gustavo Pereira da Silva" title="Gustavo Pereira da Silva">
+                        <img class="member-img" src="/static/img/gustavo.jpg" alt="Gustavo Pereira da Silva" title="Gustavo Pereira da Silva">
                     </td>
                     <td class="member-info-text">
                         <p>
                             Opa, me chamo Gustavo e tenho 19 anos, sou estudante de Análise e Desenvolvimento de Sistemas na FATEC São Paulo e também possuo formação técnica em Desenvolvimento de Sistemas. 
-                            Atualmente trabalho como estagiário de Desenvolvimento de Software e meu principal foco é a área de desenvolvimento web, porém, tenho interesse em aprender mais sobre desenvolvimento mobile e desktop utilizando .NET e Flutter.
+                            Atualmente trabalho como estagiário de Desenvolvimento de Software Full Stack e meu principal foco é a área de desenvolvimento web, porém, tenho interesse em aprender mais sobre desenvolvimento mobile e desktop utilizando .NET e Flutter.
                             Além disso, sou apaixonado por tecnologia e estou sempre em busca de novos desafios e oportunidades para aprimorar minhas habilidades.
                         </p>
                     </td>
                 </tr>
             </table>
         </div>
-
+        
         <div class="media">
-            <div class="presentation-video blur-dark-bg">
-                <h2>
-                    Recomendação de Canal
-                </h2>
-                <div class="video">
-                    <iframe style="border-radius: 8px;" src="https://www.youtube.com/embed/S9uPNppGsGo?si=o8qT-g-Rsktsm0LJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="skills blur-dark-bg">
-                <h2>Skills</h2>
-                <div class="skills-list">
-                    <ul>
-                        <li>Programação Lógica</li>
-                        <li>Desenvolvimento de Software</li>
-                        <li>Familiaridade com Typescript, Go, Python, HTML e CSS.</li>
-                        <li>Especialização nos frameworks Angular, NestJS, Gin e TailwindCSS.</li>
-                        <li>Experiência com bancos de dados SQL e manipulações com ORM's.</li>
-                    </ul>
-                </div>
-            </div>
             <div class="social-links blur-dark-bg">
                 <h2>Social Links</h2>
                 <div class="social-media">
-                    <a href="https://github.com/gutoPsilva" target="_blank" rel="external" title="GitHub">
-                        <img src="../static/img/logos/github.svg" alt="GitHub Icon">
-                    </a>
-
                     <a href="https://www.linkedin.com/in/gustavo-pereira-da-silva-b5b684247/" target="_blank" rel="external" title="LinkedIn">
                         <img src="../static/img/logos/linkedin.svg" alt="Linkedin Icon">
+                    </a>
+
+                    <a href="https://github.com/gutoPsilva" target="_blank" rel="external" title="GitHub">
+                        <img src="../static/img/logos/github.svg" alt="GitHub Icon">
                     </a>
 
                     <a href="https://api.whatsapp.com/send?phone=5511989109727" target="_blank" rel="external" title="WhatsApp">
@@ -91,42 +72,56 @@
                     </a>
                 </div>
             </div>
-        </div>
-        <div class="contact-form-container">
-            <form class="contact-form">
-                <div class="form-header">
-                    <h2>Entre em contato</h2>
+            <div class="skills blur-dark-bg">
+                <h2>Skills</h2>
+                <div class="skills-list">
+                    <ul>
+                        <li>Desenvolvimento de Software Full Stack.</li>
+                        <li>Análise crítica objetiva e resolução de problemas complexos.</li>
+                        <li>Familiaridade com Typescript, Go, Python, HTML e CSS.</li>
+                        <li>Especialização nos frameworks Angular, NestJS, Gin e TailwindCSS.</li>
+                        <li>Experiência com bancos de dados SQL e manipulações com ORM's.</li>
+                        <li>Versionamento de código com Git.</li>
+                        <li>Desenvolvimento de APIs RESTful.</li>
+                    </ul>
                 </div>
-                <div class="form-body">
-                    <div class="form-group">
-                        <label for="name">Nome:</label>
-                        <input placeholder="Fulano de tal" type="text" name="name" id="name">
+            </div>
+            <div class="contact-form-container blur-dark-bg">
+                <form class="contact-form">
+                    <div class="form-header">
+                        <h2>Entre em contato</h2>
                     </div>
-    
-                    <div class="form-group">
-                        <label for="email">E-mail:</label>
-                        <input placeholder="fulanodetal@gmail.com" type="email" name="email" id="email">
+                    <div class="form-body">
+                        <div class="form-group flex-1">
+                            <label for="name">Nome:</label>
+                            <input placeholder="Fulano de tal" type="text" name="name" id="name">
+                        </div>
+        
+                        <div class="form-group flex-1">
+                            <label for="tel">Telefone:</label>
+                            <input placeholder="11 99999-9999" type="tel" name="tel" id="tel">
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="email">E-mail:</label>
+                            <input placeholder="fulanodetal@gmail.com" type="email" name="email" id="email">
+                        </div>
+        
+                        <div class="form-group full-width">
+                            <label for="conteudo">Conteúdo do email:</label>
+                            <textarea
+                                name="conteudo" 
+                                id="conteudo" 
+                                cols="30" 
+                                rows="5"
+                                placeholder="Ah não sei oq, não sei oq lá"
+                            ></textarea>
+                        </div>
+        
+                        <input type="submit" value="Enviar">
                     </div>
-    
-                    <div class="form-group">
-                        <label for="tel">Telefone:</label>
-                        <input placeholder="11 99999-9999" type="tel" name="tel" id="tel">
-                    </div>
-    
-                    <div class="form-group">
-                        <label for="conteudo">Conteúdo do email:</label>
-                        <textarea
-                            name="conteudo" 
-                            id="conteudo" 
-                            cols="30" 
-                            rows="5"
-                            placeholder="Ah não sei oq, não sei oq lá"
-                        ></textarea>
-                    </div>
-    
-                    <input type="submit" value="Enviar">
-                </div>
-            </form>
+                </form>
+            </div>
         </div>
     </div>
 </body>

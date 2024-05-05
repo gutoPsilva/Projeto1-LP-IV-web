@@ -22,71 +22,101 @@
         </div>
     </div>
     <div class="content">
-        <h1 class="members">
-            Rogério Alves
-        </h1>
-        <div class="content-info">
+        <div class="content-header">
+            <h1 class="members">Nome do Membro</h1>
+            <a class="voltar-btn" rel="prev" href="/index.html">Voltar</a>
+        </div>
+        <div class="member-container blur-dark-bg">
             <table class="member-info">
-                <tr>
-                    <td>
-                        <img class="member-img" src="/static/default.png" alt="Rogério Alves" title="Rogério Alves">
-                    </td>
-                    <td class="member-info-text">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac ligula vitae dui feugiat ullamcorper eu mattis dui. Praesent sed ex a mauris ornare facilisis. Integer finibus quis quam in pharetra. Donec sed lorem ut erat pretium lacinia cursus eget lacus. Morbi lobortis mi nec risus consequat fermentum. Donec sodales bibendum placerat. In bibendum eu leo vitae laoreet. Maecenas pharetra blandit leo at vestibulum. Vivamus dignissim, dui sed malesuada auctor, massa purus feugiat mi, sed faucibus ex dolor pretium ante. Donec eget elementum sapien, rhoncus dignissim est. Proin ullamcorper molestie risus at tristique. Nullam quam ex, tempor vel pharetra nec, dapibus in nisl. Pellentesque iaculis nulla a augue pretium, sed efficitur eros lacinia.
-                        </p>
-                    </td>
-                </tr>
+                <td>
+                    <img class="member-img" src="/static/default.png" alt="" title="">
+                </td>
+                <td class="member-info-text">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quisquam nisi optio voluptates maxime, non dolor, porro rerum recusandae quos nesciunt molestias aspernatur nemo neque quod autem ipsa placeat sapiente. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat doloremque eligendi fugiat quaerat magni possimus odit explicabo ipsum quam corporis voluptatibus, neque aut quisquam ad accusantium obcaecati sequi accusamus dolorem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus laudantium aspernatur harum ut voluptatum illo quos unde, necessitatibus totam nostrum dolor at enim fugiat sapiente mollitia adipisci laborum sint soluta.
+                    </p>
+                </td>
             </table>
         </div>
+        
         <div class="media">
-            <div class="presentation-video">
-                <h2>
-                    Apresentação
-                </h2>
-                <div class="video">
-                    <video controls>
-                        <source src="/static/Meet_ Grupo Olx __ Ponto House - Google Chrome 2023-10-09 17-07-38.mp4" type="video/mp4">
-                      Your browser does not support the video tag.
-                      </video>
+            <div class="social-links blur-dark-bg">
+                <h2>Social Links</h2>
+                <div class="social-media">
+                    <a href="#" target="_blank" rel="external" title="LinkedIn">
+                        <img src="../static/img/logos/linkedin.svg" alt="Linkedin Icon">
+                    </a>
+
+                    <a href="#" target="_blank" rel="external" title="GitHub">
+                        <img src="../static/img/logos/github.svg" alt="GitHub Icon">
+                    </a>
+
+                    <a href="https://api.whatsapp.com/send?phone=NUMERO_TELEFONE_AQUI" target="_blank" rel="external" title="WhatsApp">
+                        <img src="../static/img/logos/whatsapp.svg" alt="WhatsApp Icon">
+                    </a>
+
+                    <a href="#" title="Instagram" target="_blank" rel="external" title="Instagram">
+                        <img src="../static/img/logos/instagram.svg" alt="Instagram Icon">
+                    </a>
+
+                    <a href="#" title="Facebook">
+                        <img src="../static/img/logos/facebook.svg" alt="Facebook Icon">
+                    </a>
+
+                    <a href="#" target="_blank" rel="external" title="Twitter">
+                        <img src="../static/img/logos/twitter.svg" alt="Twitter Icon">
+                    </a>
                 </div>
             </div>
-            <div class="skills">
+            <div class="skills blur-dark-bg">
                 <h2>Skills</h2>
                 <div class="skills-list">
                     <ul>
                         <li>Habilidade 1</li>
-                        <li>Habilidade 1</li>
-                        <li>Habilidade 1</li>
-                        <li>Habilidade 1</li>
-                        <li>Habilidade 1</li>
+                        <li>Habilidade 2</li>
+                        <li>Habilidade 3</li>
+                        <li>Habilidade 4</li>
+                        <li>Habilidade 5</li>
+                        <li>Habilidade 6</li>
                     </ul>
                 </div>
             </div>
-        </div>
-        <div class="contact-form">
-            <form>
-                <h2>Solicite seu serviço</h2>
-                <div class="form-group">
-                    <label for="name">Nome:</label>
-                    <input type="text" name="name" id="name">
-                </div>
-                <div class="form-group">
-                    <label for="email">E-mail:</label>
-                    <input type="email" name="email" id="email">
-                </div>
-                <div class="form-group">
-                    <label for="tel">Telefone:</label>
-                    <input type="tel" name="tel" id="tel">
-                </div>
-                <div class="form-group">
-                    <label for="service">Serviço:</label>
-                    <textarea name="service" id="service" cols="30" rows="5"></textarea>
-                </div>
-                <div class="form-submit">
-                    <input type="submit" value="Enviar">
-                </div>
-            </form>
+            <div class="contact-form-container blur-dark-bg">
+                <form class="contact-form">
+                    <div class="form-header">
+                        <h2>Entre em contato</h2>
+                    </div>
+                    <div class="form-body">
+                        <div class="form-group flex-1">
+                            <label for="name">Nome:</label>
+                            <input placeholder="Nome" type="text" name="name" id="name">
+                        </div>
+        
+                        <div class="form-group flex-1">
+                            <label for="tel">Telefone:</label>
+                            <input placeholder="11 99999-9999" type="tel" name="tel" id="tel">
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="email">E-mail:</label>
+                            <input placeholder="emailcontato@gmail.com" type="email" name="email" id="email">
+                        </div>
+        
+                        <div class="form-group full-width">
+                            <label for="conteudo">Conteúdo do email:</label>
+                            <textarea
+                                name="conteudo" 
+                                id="conteudo" 
+                                cols="30" 
+                                rows="5"
+                                placeholder="Digite aqui o conteúdo do email."
+                            ></textarea>
+                        </div>
+        
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 </body>

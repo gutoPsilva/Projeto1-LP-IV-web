@@ -23,74 +23,100 @@
     </div>
     <div class="content">
         <h1 class="members">
-            Rogério Alves
+            Rogério Dos Anjos Alves
         </h1>
-        <div class="content-info">
+        <div class="member-container blur-dark-bg">
             <table class="member-info">
-                <tr>
-                    <td>
-                        <img class="member-img" src="/static/img/rogerio.png" alt="Rogério Alves" title="Rogério Alves">
-                    </td>
-                    <td class="member-info-text">
-                        <p>
-                            Paulistano de 29 anos, bacharel em Publicidade e Propaganda pela Universidade Anhembi Morumbi, ingressei no curso tecnológico de Análise e Desenvolvimento de Sistemas da Faculdade de Tecnologia do Estado de São Paulo, buscando uma transição de carreira.<br>
-                            Tive meus primeiros contatos com a área de tecnologia através de demandas surgidas da minha atuação na área de marketing, onde pude ter contatos com linguagens como o VBA e Python, no desenvolvimento de microssistemas e scripts para solucionar problemas cotidianos da função.<br>
+                <td>
+                    <img class="member-img" src="/static/img/rogerio.png" alt="Rogério Alves" title="Rogério Alves">
+                </td>
+                <td class="member-info-text">
+                    <p>
+                        Paulistano de 29 anos, bacharel em Publicidade e Propaganda pela Universidade Anhembi Morumbi, ingressei no curso tecnológico de Análise e Desenvolvimento de Sistemas da Faculdade de Tecnologia do Estado de São Paulo, buscando uma transição de carreira.<br>
+                        Tive meus primeiros contatos com a área de tecnologia através de demandas surgidas da minha atuação na área de marketing, onde pude ter contatos com linguagens como o VBA e Python, no desenvolvimento de microssistemas e scripts para solucionar problemas cotidianos da função.<br>
 
-                        </p>
-                    </td>
-                </tr>
+                    </p>
+                </td>
             </table>
         </div>
+        
         <div class="media">
-            <div class="media-content">
-                <div class="presentation-video">
-                    <h2>
-                        Apresentação
-                    </h2>
-                    <div class="video">
-                        <video controls>
-                            <source src="/static/Meet_ Grupo Olx __ Ponto House - Google Chrome 2023-10-09 17-07-38.mp4" type="video/mp4">
-                          Your browser does not support the video tag.
-                          </video>
-                    </div>
-                </div>
-                <div class="skills">
-                    <h2>Skills</h2>
-                    <div class="skills-list">
-                        <ul>
-                            <li>Programação em Python</li>
-                            <li>Desenvolvimento de Microssistemas em VBA e Typescript</li>
-                            <li>Gestão de Processos</li>
-                            <li>Criação, manutenção e aprimoramento de Data Lakes</li>
-                            <li>Power BI e Análise de Dados</li>
-                        </ul>
-                    </div>
+            <div class="social-links blur-dark-bg">
+                <h2>Social Links</h2>
+                <div class="social-media">
+                    <a href="#" target="_blank" rel="external" title="LinkedIn">
+                        <img src="../static/img/logos/linkedin.svg" alt="Linkedin Icon">
+                    </a>
+
+                    <a href="#" target="_blank" rel="external" title="GitHub">
+                        <img src="../static/img/logos/github.svg" alt="GitHub Icon">
+                    </a>
+
+                    <a href="https://api.whatsapp.com/send?phone=NUMERO_TELEFONE_AQUI" target="_blank" rel="external" title="WhatsApp">
+                        <img src="../static/img/logos/whatsapp.svg" alt="WhatsApp Icon">
+                    </a>
+
+                    <a href="#" title="Instagram" target="_blank" rel="external" title="Instagram">
+                        <img src="../static/img/logos/instagram.svg" alt="Instagram Icon">
+                    </a>
+
+                    <a href="#" title="Facebook">
+                        <img src="../static/img/logos/facebook.svg" alt="Facebook Icon">
+                    </a>
+
+                    <a href="#" target="_blank" rel="external" title="Twitter">
+                        <img src="../static/img/logos/twitter.svg" alt="Twitter Icon">
+                    </a>
                 </div>
             </div>
-        </div>
-        <div class="contact-form">
-            <form action="">
-                <h2>Solicite seu serviço</h2>
-                <div class="form-group">
-                    <label for="name">Nome:</label>
-                    <input type="text" name="name" id="name">
+            <div class="skills blur-dark-bg">
+                <h2>Skills</h2>
+                <div class="skills-list">
+                    <ul>
+                        <li>Programação em Python</li>
+                        <li>Desenvolvimento de Microssistemas em VBA e Typescript</li>
+                        <li>Gestão de Processos</li>
+                        <li>Criação, manutenção e aprimoramento de Data Lakes</li>
+                        <li>Power BI e Análise de Dados</li>
+                    </ul>
                 </div>
-                <div class="form-group">
-                    <label for="email">E-mail:</label>
-                    <input type="email" name="email" id="email">
-                </div>
-                <div class="form-group">
-                    <label for="tel">Telefone:</label>
-                    <input type="tel" name="tel" id="tel">
-                </div>
-                <div class="form-group">
-                    <label for="service">Serviço:</label>
-                    <textarea name="service" id="service" cols="30" rows="5"></textarea>
-                </div>
-                <div class="form-submit">
-                    <input type="submit" value="Enviar">
-                </div>
-            </form>
+            </div>
+            <div class="contact-form-container blur-dark-bg">
+                <form class="contact-form">
+                    <div class="form-header">
+                        <h2>Entre em contato</h2>
+                    </div>
+                    <div class="form-body">
+                        <div class="form-group flex-1">
+                            <label for="name">Nome:</label>
+                            <input placeholder="Nome" type="text" name="name" id="name">
+                        </div>
+        
+                        <div class="form-group flex-1">
+                            <label for="tel">Telefone:</label>
+                            <input placeholder="11 99999-9999" type="tel" name="tel" id="tel">
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="email">E-mail:</label>
+                            <input placeholder="emailcontato@gmail.com" type="email" name="email" id="email">
+                        </div>
+        
+                        <div class="form-group full-width">
+                            <label for="conteudo">Conteúdo do email:</label>
+                            <textarea
+                                name="conteudo" 
+                                id="conteudo" 
+                                cols="30" 
+                                rows="5"
+                                placeholder="Digite aqui o conteúdo do email."
+                            ></textarea>
+                        </div>
+        
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
 </body>
