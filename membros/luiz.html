@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="\css\style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/51a3fb8146.js" crossorigin="anonymous"></script>
+    <title>Luiz Fernando da Costa</title>
+
+    <style>
+        html{
+            color: #ffffff;
+            font-family: "Rubik";
+            overflow-x: hidden;
+        }
+        body{
+            background-image: url('background.jpg');
+            background-size: cover;
+        }
+        
+        .black-bg{
+            background-color: rgba(0,0,0,0.4);
+            width: 1270px;
+            height: 1360px;
+            margin-top: -20px;
+            margin-left: 2px;
+        }
+        
+        .header {
+            width: 100vw;
+            margin-top: -10px;
+            margin-left: -10px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+        }
+        
+        /* CONFIGURAÇÃO DO MARQUEE */
+        
+        .lettering{
+            position: fixed;
+            font-family: "Orbitron";
+            color: lime;
+            background-color: black;
+            width: 100%;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            margin-bottom: -10px;
+        }
+        
+        /* CONFIGURAÇÃO DO HEADING */
+        
+        .heading{
+            color:#ffffff;
+            padding-top: 50px;
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            font-family: "Rubik" ;
+            font-size: 14pt;
+            margin-left: 60px;
+        }
+        
+        .container{
+            color: #000000;
+            background-color: #ffffff;
+            width: 1150px;
+            height: 150px;
+            margin-left: 60px;
+            border-radius: 25px;
+            padding: 5px 15px 5px 15px;
+            font-size: 10pt;
+            margin-bottom: 20px;
+        }
+        
+        .grid-title{
+            margin-left: 60px;
+            font-weight: 100;
+        }
+        
+        .grid{
+            width: 1150px;
+            height: 200px;
+            margin-left: 60px;
+            margin-top: -15px;
+            padding-bottom: 20px;
+            align-items: center;
+        }
+        
+        .grid img{
+            border-radius: 15px;
+        }
+        
+        table{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            border-collapse: separate;
+            border-spacing: 15px;
+        }
+        
+        td.img-membro{
+            color:#000000;
+            text-align: center;
+            background-color: #ffffff;
+            width: 150px;
+            height: 150px;
+            border-radius: 15px;
+        }
+        
+        .img-membro img{
+            width: 150px;
+            height: 150px;
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .img-membro a{
+            text-decoration: none;
+        }
+        
+        .img-membro a:hover{
+            font-weight: bold;
+        }
+        
+        
+        h1.members{
+            padding-top: 80px;
+        }
+        
+        .member-info{
+            background-color: rgba(55,55,55,0.75);
+            width: 90%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            border-collapse: separate;
+            color: #ffffff;
+            border-radius: 25px;
+            margin: 50px;
+            line-height: 20px;
+        }
+        
+        .member-img{
+            width: 200px;
+            height: 200px;
+            background-color: #ffffff;
+            border-radius: 15px;
+        }
+        .logo-img{
+            width: 100px;
+            height: 100px;
+            background-color: #ffffff;
+            border-radius: 15px;
+        }
+        
+        .member-info-text{
+            padding: 0px 40px 0px 40px;
+        }
+        
+        .media-content{
+            margin: 55px;
+            border-collapse: initial;
+            display: flex;
+        }
+        
+        .presentation-video{
+            background-color: rgba(55,55,55,0.75);
+            float: left;
+            width: 40%;
+            padding: 15px;
+            border-radius: 15px;
+            margin-right: 10px;
+        }
+        
+        .skills{
+            background-color: rgba(55,55,55,0.75);
+            float: right;
+            width: 50%;
+            padding: 15px;
+            border-radius: 15px;
+            margin-left: 10px;
+        }
+        
+        .skills-list li{
+            padding: 10px;
+        }
+        
+        video{
+            width: 100%;
+            border-radius: 15px;
+        }
+        
+        .contact-form{
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            background-color: #ffffff;
+            color: #000000;
+            width: 50%;
+            border-radius: 25px;
+            padding: 25px;
+        }
+        
+        .contact-form h2{
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .form-group{
+            padding: 15px;
+        }
+        
+        .form-label{
+            width: 450px;
+            margin-bottom: 10px;
+            vertical-align:top;
+            font-weight: bold;
+        }
+        
+        .form-input{
+            width: 450px;
+        }
+        
+        .form-group input, .form-group textarea{
+            border-radius: 5px;
+            border-width: 1px;
+            width: 450px;
+        }
+        
+        .form-submit input{
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            background-color: green;
+            color: #ffffff;
+            width: 60%;
+            border-radius: 15px;
+            padding: 10px;
+            border-width: 0px;
+            align-self: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div>
+            <a href="index.html">
+                <marquee behavior="scroll" direction="left" class="lettering">
+                    FACULDADE DE TECNOLOGIA DO ESTADO DE SÃO PAULO - ANÁLISE E DESENVOLVIMENTO DE SISTEMAS
+                </marquee>
+            </a>
+        </div>
+    </div>
+    <div class="black-bg">
+        <div class="content">
+            <h1 class="members">
+                Luiz Fernando da Costa
+            </h1>
+            <div class="content-info">
+                <table class="member-info">
+                    <tr>
+                        <td>
+                            <img class="member-img" src="Luiz.png" alt="Luiz Fernando da Costa" title="Luiz Fernando da Costa">
+                        </td>
+                        <td class="member-info-text">
+                            <p>
+                                Meu nome é Luiz Fernando, sou estudante de Análise e Desenvolvimento de Sistemas na FATEC São Paulo, sou formado também em engenharia civil e pós graduado em gestão de projetos. 
+                            Estou buscando uma mudança em minha carreira e por isso estou fazendo essa migração para área de tecnologia, que é uma área que me atrai bastante
+                            Atualmente trabalho no departamento comercial e já tive envolvimento em um projeto de implantaçaõ de ERP, o que me fez buscar essa mudança de área e me motivou a buscar a FATEC..<br>
+
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="media">
+              <div class="social-links blur-dark-bg">
+                <h2>Social Links</h2>
+                <div class="social-media">
+                    <a href="https://www.linkedin.com/in/luiz-fernando-da-costa/" target="_blank" rel="external" title="LinkedIn">
+                        <img class = "logo-img" src="linkedinlogo.png" alt="Linkedin Icon">
+                    </a>
+                    <a href="https://github.com/LuizFefas" target="_blank" rel="external" title="GitHub">
+                        <img class = "logo-img" src="githublogo.png" alt="GitHub Icon">
+                    </a>
+		<div class="media-content">
+                    <div class="presentation-video">
+                        <h2>
+                            Apresentação
+                        </h2>
+                        <div class="video">
+                            <video controls>
+                                <source src="Meet_ Grupo Olx __ Ponto House - Google Chrome 2023-10-09 17-07-38.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <h2>Skills</h2>
+                        <div class="skills-list">
+                            <ul>
+                            <li>Familiaridade com Python.</li>
+                        	<li>Microsoft Office.</li>
+                        	<li>Criação de dashboards e análise de dados Power BI.</li>
+                        	<li>Linguagem VBA.</li>
+                        	<li>Metodologias ágeis em gestão de projetos.</li>
+                        	<li>Metodologia Lean e Kaizen.</li>
+                        	<li>Vendas.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form action="">
+                    <h2>Solicite seu serviço</h2>
+                    <div class="form-group">
+                        <div class="form-label">
+                            <label for="name">Nome:</label>
+                        </div>
+                        <div class="form-input">
+                            <input type="text" name="name" id="name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-label">
+                            <label for="email">E-mail:</label>
+                        </div>
+                        <div class="form-input">
+                            <input type="email" name="email" id="email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-label">
+                            <label for="tel">Telefone:</label>
+                        </div>
+                        <div class="form-input">
+                            <input type="tel" name="tel" id="tel">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="form-label">
+                            <label for="service">Serviço:</label>
+                        </div>
+                        <div class="form-input">
+                            <textarea name="service" id="service" cols="30" rows="5"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-submit">
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
