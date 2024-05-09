@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/51a3fb8146.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="/static/img/logos/html.png" type="image/x-icon">
+    <title>Yago Sousa Pacheco</title>
+</head>
+<body>
+    <div class="header">
+        <marquee behavior="scroll" direction="left" class="lettering">
+            FACULDADE DE TECNOLOGIA DO ESTADO DE SÃO PAULO - ANÁLISE E DESENVOLVIMENTO DE SISTEMAS
+        </marquee>
+        <div class="heading">
+            <h1>PROJETO I - LINGUAGEM DE PROGRAMAÇÃO IV - DESENVOLVIMENTO WEB</h1>
+        </div>
+    </div>
+    <div class="content">
+        <div class="content-header">
+            <h1 class="members">Yago Sousa Pacheco</h1>
+            <a class="voltar-btn" rel="prev" href="/index.html">Voltar</a>
+        </div>
+        <div class="member-container blur-dark-bg">
+            <table class="member-info">
+                <td>
+                    <img class="member-img" src="/static/img/yago.jpg" alt="Yago Pacheco" title="Yago Pacheco">
+                </td>
+                <td class="member-info-text">
+                    <p>
+                        Comecei minha vida universitária cursando Tecnologia em Mecatrônica Industrial por ter grande interesse em automação, porém, o curso foi fechado durante a pandemia e decidi não retomar o curso em outra universidade. <br>
+                        Ingressei no curso de Análise e Desenvolvimento de Sistemas na FATEC-SP e atualmente curso o 3ºsemestre no período noturno, buscando conquistar conhecimento para me aprimorar profissionalmente na área de tecnologia.
+
+                    </p>
+                </td>
+            </table>
+        </div>
+        
+        <div class="media">
+            <div class="social-links blur-dark-bg">
+                <h2>Social Links</h2>
+                <div class="social-media">
+                    <a href="https://www.linkedin.com/in/yagopacheco4/" target="_blank" rel="external" title="LinkedIn">
+                        <img src="../static/img/logos/linkedin.svg" alt="Linkedin Icon">
+                    </a>
+
+                    <a href="https://github.com/YagoPacheco" target="_blank" rel="external" title="GitHub">
+                        <img src="../static/img/logos/github.svg" alt="GitHub Icon">
+                    </a>
+
+                    <a href="#" target="_blank" rel="external" title="WhatsApp">
+                        <img src="../static/img/logos/whatsapp.svg" alt="WhatsApp Icon">
+                    </a>
+
+                    <a href="https://www.instagram.com/pacheyago/" title="Instagram" target="_blank" rel="external" title="Instagram">
+                        <img src="../static/img/logos/instagram.svg" alt="Instagram Icon">
+                    </a>
+
+                    <a href="https:#" title="Facebook">
+                        <img src="../static/img/logos/facebook.svg" alt="Facebook Icon">
+                    </a>
+
+                    <a href="#" target="_blank" rel="external" title="Twitter">
+                        <img src="../static/img/logos/twitter.svg" alt="Twitter Icon">
+                    </a>
+                </div>
+            </div>
+            <div class="skills blur-dark-bg">
+                <h2>Skills</h2>
+                <div class="skills-list">
+                    <ul>
+                        <li>Programação em C, C++, Python, HTML, CSS</li>
+                        <li>Conhecimento em hardware e experiência em manutenção de computadores</li>
+                        <li>Conhecimento em CAD/CAM</li>
+                        <li>Conhecimento em softwares de design: Illustrator, InDesign e Photoshop</li>
+                        <li>Inglês (TOEIC Listening and Reading – B2) </li>
+                        <li>Japonês (JLPT - N4)</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contact-form-container blur-dark-bg">
+                <form class="contact-form">
+                    <div class="form-header">
+                        <h2>Solicite seu serviço</h2>
+                    </div>
+                    <div class="form-body">
+                        <div class="form-group flex-1">
+                            <label for="name">Nome:</label>
+                            <input placeholder="Nome" type="text" name="name" id="name">
+                        </div>
+        
+                        <div class="form-group flex-1">
+                            <label for="tel">Telefone:</label>
+                            <input placeholder="11 99999-9999" type="tel" name="tel" id="tel">
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label for="email">E-mail:</label>
+                            <input placeholder="emailcontato@gmail.com" type="email" name="email" id="email">
+                        </div>
+        
+                        <div class="form-group full-width">
+                            <label for="conteudo">Conteúdo do email:</label>
+                            <textarea
+                                name="conteudo" 
+                                id="conteudo" 
+                                cols="30" 
+                                rows="5"
+                                placeholder="Digite aqui o conteúdo do email."
+                            ></textarea>
+                        </div>
+        
+                        <input type="submit" value="Enviar">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
